@@ -10,4 +10,4 @@ if(response.status === 400) {
 
 You will need a SendGrid key, verified email address and an API Gateway URL pointing to a Lambda Function for this example to work.
 
-Example code the Lambda Function is [here](https://github.com/javascript-repositories/video-call-sendgrid-lambda-function).
+Example code for the Lambda Function is [here](https://github.com/javascript-repositories/video-call-sendgrid-lambda-function).
