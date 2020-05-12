@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Send email</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="background"></div>
+        <h1>Send email</h1>
+        <div class="container">
+
+            <div class="loader"></div>
+
+            <form>
+                <div id="response"></div>
+
+                <div>
+                    <label for="email">To email</label>
+                    <input id="email" placeholder="Enter the recipient's email address" />
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <input id="subject" placeholder="Enter the email subject" />
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Enter the message"></textarea>
+                </div>
+                <button type="button" disabled>
+                    Send
+                </button>
+
+            </form>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
